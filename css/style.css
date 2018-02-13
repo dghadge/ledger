@@ -87,7 +87,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.856);
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -124,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat fixed;
+  background: linear-gradient(45deg, rgba(29, 224, 153, 0.40), rgba(29, 200, 205, 0.40)), url("../img2/intro-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   position: relative;
 }
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .intro-text {
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 360px;
   right: 0;
   height: calc(50% - 60px);
   display: flex;
@@ -145,8 +146,9 @@ h1, h2, h3, h4, h5, h6 {
 #intro h2 {
   margin: 30px 0 10px 0;
   padding: 0 15px;
-  font-size: 48px;
-  font-weight: 400;
+  font-size: 84px;
+  font-weight: 700;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.856);
   line-height: 56px;
   color: #fff;
 }
@@ -162,7 +164,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 20px;
   padding: 0 15px;
-  font-size: 24px;
+  font-size: 30px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.856);
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -175,8 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .btn-get-started {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 28px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
@@ -319,8 +323,9 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.342);
+  font-weight: 500;
+  font-size: 20px;
   outline: none;
 }
 
